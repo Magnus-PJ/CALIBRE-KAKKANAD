@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# No public host is configured. The sitemap lists the page files in this folder.
+Sitemap: sitemap.xml
