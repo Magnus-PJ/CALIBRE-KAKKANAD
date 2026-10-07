@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.pem
+*.key
+*.tsbuildinfo
+agent-tools/
+patient-data/
+# Remove planning exclusions only after repository is private
+archive/
+finance/
+docs/current/
