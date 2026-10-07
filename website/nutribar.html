@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NutriBar | RE-WYND KOCHI</title>
   <meta name="description" content="Coming soon to Kakkanad. The RE-WYND NutriBar will prepare protein food, snacks, shakes and drinks. The menu is not final and the bar is not open.">
-    <meta name="theme-color" content="#0c0d0f">
+  <meta name="theme-color" content="#0c0d0f">
   <meta property="og:title" content="NutriBar | RE-WYND KOCHI">
   <meta property="og:description" content="Coming soon to Kakkanad. The RE-WYND NutriBar will prepare protein food, snacks, shakes and drinks. The menu is not final and the bar is not open.">
   <meta property="og:type" content="website">
@@ -15,57 +15,79 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230c0d0f' width='32' height='32'/%3E%3Crect fill='%23ff4d2e' y='26' width='32' height='6'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230c0d0f' width='32' height='32'/%3E%3Crect fill='%23ff4d2e' y='26' width='32' height='6'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
   <div class="soon" role="status"><p>Coming soon to Kakkanad. RE-WYND KOCHI is not open and not bookable.</p></div>
-  <header class="site wrap">
+  <header class="site">
     <a class="brand" href="index.html"><strong>RE-WYND</strong><span>KOCHI</span></a>
     <nav class="primary" aria-label="Primary">
-      <a href="physiotherapy.html">Physiotherapy</a>
-      <a href="recovery.html">Recovery</a>
-      <a href="facility.html">The facility</a>
-      <a href="services.html">Find a service</a>
-      <a href="visit.html">Visit</a>
+      <div>
+        <p class="nav-label">Care</p>
+        <a href="physiotherapy.html">Physiotherapy</a>
+        <a href="rehabilitation.html">Rehabilitation</a>
+        <a href="movement.html">Movement</a>
+      </div>
+      <div>
+        <p class="nav-label">Recover</p>
+        <a href="recovery.html">Recovery</a>
+        <a href="wellness.html">Wellness</a>
+      </div>
+      <div>
+        <p class="nav-label">Look after yourself</p>
+        <a href="medical.html">Doctors and IV</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="nutribar.html" aria-current="page">NutriBar</a>
+        <a href="retail.html">Retail</a>
+      </div>
+      <div>
+        <p class="nav-label">The place</p>
+        <a href="facility.html">The facility</a>
+        <a href="services.html">Find a service</a>
+        <a href="visit.html">Visit</a>
+      </div>
     </nav>
   </header>
-  <main id="content" class="wrap">
-    <header class="hero">
-      <p class="kicker">Coming soon to Kakkanad</p>
-      <h1 class="page-title">NutriBar</h1>
+  <main class="read" id="content">
+    <aside class="rail">
+      <h1>NutriBar</h1>
       <p class="lede">Food and drinks made on site, for people leaving a session or stopping in. The menu is not written, and the bar is not serving.</p>
-    </header>
-    <section>
-      <h2>What the kitchen is meant to do</h2>
-      <ul class="clean">
-        <li id="protein-food">Protein food and healthy snacks or meals.</li>
-        <li id="shakes">Shakes. Protein used in a shake is an ingredient, not a second retail sale.</li>
-        <li id="drinks">Hydration and electrolyte drinks made here.</li>
-        <li id="candidates">Broths and teas are candidates only. They are not on a menu.</li>
-      </ul>
-      <p>A full hot kitchen is not assumed. The room needs washing, refrigeration, and a clear pickup. Packaged products stay on the <a href="retail.html">retail shelf</a>.</p>
-    </section>
+      <nav class="onpage" aria-label="On this page">
+        <p>On this page</p>
+        <a href="#kitchen">What the kitchen is meant to do</a>
+        <a href="#protein-food">Protein food</a>
+        <a href="#shakes">Shakes</a>
+        <a href="#drinks">Drinks</a>
+        <a href="#candidates">Candidates only</a>
+      </nav>
+    </aside>
+    <div class="column">
+      <section aria-labelledby="kitchen">
+        <h2 id="kitchen">What the kitchen is meant to do</h2>
+        <div class="pair">
+          <div>
+            <p class="pair-label">Set</p>
+            <p>The bar is meant to prepare food and drinks on site, for people leaving a session or stopping in. The room needs washing, refrigeration, and a clear pickup.</p>
+          </div>
+          <div>
+            <p class="pair-label">Not set</p>
+            <p>The menu is not written, and the bar is not serving. A full hot kitchen is not assumed. Broths and teas are candidates only.</p>
+          </div>
+        </div>
+        <ul class="register">
+          <li id="protein-food"><strong>Protein food</strong><span>Protein food and healthy snacks or meals.</span></li>
+          <li id="shakes"><strong>Shakes</strong><span>Shakes. Protein used in a shake is an ingredient, not a second retail sale.</span></li>
+          <li id="drinks"><strong>Drinks</strong><span>Hydration and electrolyte drinks made here.</span></li>
+          <li id="candidates"><strong>Candidates only</strong><span>Broths and teas are candidates only. They are not on a menu.</span></li>
+        </ul>
+        <p class="handoff">Packaged products stay on the <a href="retail.html">retail shelf</a>. Conversations about what to eat sit with <a href="nutrition.html">nutrition</a>. A joined programme is under <a href="wellness.html">wellness</a>.</p>
+      </section>
+    </div>
   </main>
-  <footer class="site wrap">
-    <hr>
-    <nav aria-label="All pages">
-      <a href="index.html">Home</a>
-      <a href="physiotherapy.html">Physiotherapy</a>
-      <a href="rehabilitation.html">Rehabilitation</a>
-      <a href="recovery.html">Recovery</a>
-      <a href="movement.html">Movement</a>
-      <a href="medical.html">Doctors and IV</a>
-      <a href="nutrition.html">Nutrition</a>
-      <a href="nutribar.html">NutriBar</a>
-      <a href="retail.html">Retail</a>
-      <a href="wellness.html">Wellness</a>
-      <a href="facility.html">The facility</a>
-      <a href="visit.html">Visit</a>
-      <a href="services.html">Find a service</a>
-    </nav>
-    <p>RE-WYND KOCHI · Coming soon to Kakkanad · No booking and no public contact number yet.</p>
+  <footer class="site">
+    <p>RE-WYND KOCHI is not open. No booking and no public contact number yet.</p>
   </footer>
 </body>
 </html>
